@@ -1,6 +1,5 @@
 <?php
 require 'system/config/connection_db.php';
-
 require 'header.php';
 
 
@@ -270,6 +269,8 @@ $result = $conn->query($sql);
     <script>
         $(".chosen-select").chosen()
     </script>
+
+    http://harvesthq.github.io/chosen/
 
     <script src="js/chosen/docsupport/jquery-3.2.1.min.js" type="text/javascript"></script>
     <script src="js/chosen/chosen.jquery.js"></script>
